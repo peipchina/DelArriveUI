@@ -1,0 +1,1948 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="1">
+      <豆油化验单 Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>豆油化验单</Alias>
+        <BusinessObjects isList="true" count="0" />
+        <Category />
+        <Columns isList="true" count="92">
+          <value>ID,System.Int64</value>
+          <value>CorpID,System.Nullable`1[System.Int64]</value>
+          <value>BilIDFrom,System.String</value>
+          <value>IDFrom,System.Nullable`1[System.Int64]</value>
+          <value>ItemFrom,System.Nullable`1[System.Int32]</value>
+          <value>IDOutStc,System.Nullable`1[System.Int64]</value>
+          <value>AutoID,System.Nullable`1[System.Int64]</value>
+          <value>AutoCode,System.String</value>
+          <value>Driver,System.String</value>
+          <value>UpStockID,System.Nullable`1[System.Int64]</value>
+          <value>InLine,System.String</value>
+          <value>InLineTime,System.Nullable`1[System.DateTime]</value>
+          <value>IDInStc,System.Nullable`1[System.Int64]</value>
+          <value>StockID,System.Nullable`1[System.Int64]</value>
+          <value>StockQty,System.String</value>
+          <value>QtyTare,System.Nullable`1[System.Decimal]</value>
+          <value>TareTime,System.Nullable`1[System.DateTime]</value>
+          <value>TareStfID,System.Nullable`1[System.Int64]</value>
+          <value>QtyGross,System.Nullable`1[System.Decimal]</value>
+          <value>GrossTime,System.Nullable`1[System.DateTime]</value>
+          <value>GrossStfID,System.Nullable`1[System.Int64]</value>
+          <value>BeginLoadStfID,System.Nullable`1[System.Int64]</value>
+          <value>BeginLoadTime,System.Nullable`1[System.DateTime]</value>
+          <value>EndLoadTime,System.Nullable`1[System.DateTime]</value>
+          <value>EndLoadStfID,System.Nullable`1[System.Int64]</value>
+          <value>QCID,System.Nullable`1[System.Int64]</value>
+          <value>PassTime,System.Nullable`1[System.DateTime]</value>
+          <value>PassStfID,System.Nullable`1[System.Int64]</value>
+          <value>SuperviseID,System.Nullable`1[System.Int64]</value>
+          <value>CreateStfID,System.Nullable`1[System.Int64]</value>
+          <value>CreateTime,System.Nullable`1[System.DateTime]</value>
+          <value>Rem,System.String</value>
+          <value>SuperviseTypeID,System.Int32</value>
+          <value>SuperviseIndex,System.Nullable`1[System.Int32]</value>
+          <value>UpIndex,System.Nullable`1[System.Int32]</value>
+          <value>MultKeyID,System.Nullable`1[System.Int64]</value>
+          <value>QtyLastTare,System.Nullable`1[System.Decimal]</value>
+          <value>LastTareTime,System.Nullable`1[System.DateTime]</value>
+          <value>LastTareStfID,System.Nullable`1[System.Int64]</value>
+          <value>IsReceipt,System.Boolean</value>
+          <value>AccID,System.Nullable`1[System.Int64]</value>
+          <value>RecAmt,System.Nullable`1[System.Decimal]</value>
+          <value>ReCAmtLocal,System.Nullable`1[System.Decimal]</value>
+          <value>QtyTareRep,System.Nullable`1[System.Decimal]</value>
+          <value>TareRepTime,System.Nullable`1[System.DateTime]</value>
+          <value>TareRepStfID,System.Nullable`1[System.Int64]</value>
+          <value>DelayHours,System.Nullable`1[System.Decimal]</value>
+          <value>LoadAdd,System.String</value>
+          <value>IsPass,System.Nullable`1[System.Int32]</value>
+          <value>QtyCheck12,System.String</value>
+          <value>QtyCheck2,System.String</value>
+          <value>QtyCheck3,System.String</value>
+          <value>QtyCheck1,System.String</value>
+          <value>QtyCheck4,System.String</value>
+          <value>QtyCheck5,System.String</value>
+          <value>QtyCheck6,System.String</value>
+          <value>QtyCheck7,System.String</value>
+          <value>QtyCheck8,System.String</value>
+          <value>QtyCheck9,System.String</value>
+          <value>QtyCheck10,System.String</value>
+          <value>QtyCheck11,System.String</value>
+          <value>ArriveID,System.Nullable`1[System.Int64]</value>
+          <value>CheckStfName,System.String</value>
+          <value>QtyCheck13,System.String</value>
+          <value>QtyCheck14,System.String</value>
+          <value>QtyBZY,System.Nullable`1[System.Decimal]</value>
+          <value>QtyTray,System.Nullable`1[System.Decimal]</value>
+          <value>QtyLargess,System.Nullable`1[System.Decimal]</value>
+          <value>TrayName,System.String</value>
+          <value>QtyCheck15,System.String</value>
+          <value>MatID,System.Nullable`1[System.Int64]</value>
+          <value>StockIDDtl,System.Nullable`1[System.Int64]</value>
+          <value>Qty,System.Nullable`1[System.Decimal]</value>
+          <value>ContID,System.Nullable`1[System.Int64]</value>
+          <value>ContBilID,System.String</value>
+          <value>ContItem,System.Nullable`1[System.Int32]</value>
+          <value>TransportID,System.Nullable`1[System.Int32]</value>
+          <value>ToCust,System.String</value>
+          <value>MatIDCode,System.String</value>
+          <value>MatIDName,System.String</value>
+          <value>MatTypeName,System.String</value>
+          <value>ContDepID,System.Nullable`1[System.Int64]</value>
+          <value>passName,System.String</value>
+          <value>DCorpID,System.Nullable`1[System.Int64]</value>
+          <value>DrID,System.Nullable`1[System.Int64]</value>
+          <value>ContBilNo,System.String</value>
+          <value>CustID,System.Nullable`1[System.Int64]</value>
+          <value>TSCode,System.String</value>
+          <value>DepotFrom,System.String</value>
+          <value>DepotTo,System.String</value>
+          <value>Consignee,System.String</value>
+          <value>StorckName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Guid>0827fa37ceac4a70babfd991f1161b82</Guid>
+        <Name>豆油化验单</Name>
+      </豆油化验单>
+    </BusinessObjects>
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="107">
+        <Text112 Ref="4" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.46,0.6,8.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,18,Bold</Font>
+          <Guid>c92212b13d5c49bfb4dfcc1e23b5aec1</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text112</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>广西渤海农业发展有限公司</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text112>
+        <Text113 Ref="5" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>11.8,3.6,2.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>38d95de9ce4c4ee8a49827b21b3229bf</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text113</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>质量等级
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text113>
+        <Text114 Ref="6" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.86,2,6.4,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,16,Bold</Font>
+          <Guid>a3dac8ca15f843b2be5ff974641dd6e7</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text114</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>大豆油出厂检验报告单							
+</Text>
+          <TextBrush>Black</TextBrush>
+        </Text114>
+        <Text115 Ref="7" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,7.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>6657f734d2f84905a2959279d9b6023a</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text115</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>色泽                             ≤                                                         
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text115>
+        <Text116 Ref="8" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8.6,4.2,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>c8091331f6194d9189ab629919e08c92</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text116</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>气味、滋味	</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text116>
+        <Text117 Ref="9" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>b6db2c4971464d269558e2d947cc87ba</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text117</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>透明度</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text117>
+        <Text118 Ref="10" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,11.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>c0940cd6ae364d52a47dca969116816f</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text118</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>水分及挥发物/%        ≤
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text118>
+        <Text119 Ref="11" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,12.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>25db37403e644561b8b31d9e22b0319c</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text119</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>不溶性杂质/%             ≤</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text119>
+        <Text120 Ref="12" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,13.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>16a426140f854c65acc33cd4296e17f0</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text120</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>酸值（KOH）/            ≤
+(mg/g)  
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text120>
+        <Text122 Ref="13" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.06,3,4.6,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>a67e6134c4524340ac96c67b13524d98</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text122</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>编号：GXBH-QER-QC-201</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text122>
+        <Text123 Ref="14" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>14.2,3.6,4.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>3cd24027e3a9403e897eea60ecec358b</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text123</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{Substring(SacOutSupervise.MatTypeName,0,2)}</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text123>
+        <Image2 Ref="15" type="Image" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,5.4,1.8</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Guid>333a8f4177204b278ee89545509c4b1f</Guid>
+          <Image>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</Image>
+          <Margins>0,0,0,0</Margins>
+          <Name>Image2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </Image2>
+        <Text130 Ref="16" type="Text" isKey="true">
+          <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,22.2,19,1.4</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>558879d5551f42e98de7dff4503693d6</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text130</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>备注：加工原料为转基因大豆	   原料原产国：{SacOutSupervise.QtyCheck14}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text130>
+        <Text131 Ref="17" type="Text" isKey="true">
+          <Border>Left, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,23.6,19,0.8</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,12,Bold</Font>
+          <Guid>9e3fac0ae4824b4b9b5338b6cdf55e83</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text131</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>结论：经检验，符合GB/T 1535-2003要求，准予出厂						
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text131>
+        <Text132 Ref="18" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2,24.6,2.4,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>cbdc4d5e48f44912bfe941a54954c560</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text132</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>分析： 
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text132>
+        <Text133 Ref="19" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>11.6,24.6,2.4,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>504fe5ba3fb6463fbe818bbd624a037e</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text133</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>审核： 	
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text133>
+        <Text134 Ref="20" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,3.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>50fb23ee0f034fe4ac6c84bd20f295c0</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text134</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>产品名称
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text134>
+        <Text138 Ref="21" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,4.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>891acbb31e1e4110880d7fe1196ca62a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text138</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>车号</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text138>
+        <Text139 Ref="22" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,4.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>04a452c752ee4b0a9b4c793d2a4c4046</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text139</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.AutoCode}</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text139>
+        <Text140 Ref="23" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>11.8,4.6,2.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>602bfcc826c349abbe2552f360d0515f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text140</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>生产日期	
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text140>
+        <Text142 Ref="24" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,5.6,4.2,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>e43175d62061466481be70fdc5e69740</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text142</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>检验项目	
+	
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text142>
+        <Text144 Ref="25" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,5.6,12,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>a16b013ac0f54652bbc481b584272e31</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text144</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>控制范围</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text144>
+        <Text145 Ref="26" type="Text" isKey="true">
+          <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.6,6.6,1.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>1da20d54a98043ebae88690a23ed43d3</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text145</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>一级
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text145>
+        <Text149 Ref="27" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,5.6,2.8,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>9b9502117dba45d88d5313e206c1793d</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text149</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>结果
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text149>
+        <Text156 Ref="28" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,8.6,3,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>005f537d9c0542bd84a7d626c85b69cc</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text156</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>无气味、口感好</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text156>
+        <Text162 Ref="29" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,7.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>88c3fbaa7c964776b13b74d80013c60b</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text162</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Y20R2.0 
+(133.4mm)
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text162>
+        <Text163 Ref="30" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,7.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>321799b6970b4db2bc0471c2aea68431</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text163</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Y35R4.0 
+(133.4mm)
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text163>
+        <Text164 Ref="31" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,7.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>23cf83a17e584a358e258c7011a205bd</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text164</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Y70R4.0
+(25.4mm)</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text164>
+        <Text165 Ref="32" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,7.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>7c9ca5070dfe48a698074b2657b85dd4</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text165</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Y70R6.0
+(25.4mm)
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text165>
+        <Text166 Ref="33" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,8.6,3,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>b96210e4965b48c7aa515ae38823633a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text166</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>气味、口感良好</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text166>
+        <Text167 Ref="34" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,8.6,3,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>81757ac3171d4ef6b62d434a8f9867f9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text167</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>具有大豆油
+固有的气味
+和滋味，无
+异味</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text167>
+        <Text168 Ref="35" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,8.6,3,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>7955efee263d4160a9f3d163d00ce27b</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text168</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>具有大豆油
+固有的气味
+和滋味，无
+异味</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text168>
+        <Text169 Ref="36" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,7.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>131a564a5c3e4ddaa6a8dbe72d5d1059</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text169</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck5}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text169>
+        <Text172 Ref="37" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,10.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>87d7d93d558a418abf675d3577f1e708</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text172</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>澄清、透明</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text172>
+        <Text173 Ref="38" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,10.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>eb050eac0a214895bbc3dbacfc9d43ab</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text173</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>- 
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text173>
+        <Text174 Ref="39" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,10.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>db12f5fb52f843a386b54eef6c6ca8d8</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text174</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>- 
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text174>
+        <Text183 Ref="40" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,10.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>b12a3a9433e24fb280b543804ceed8ce</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text183</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck7}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text183>
+        <Text184 Ref="41" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,11.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>73a9ff9ea7654feba4d4ec6957061a95</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text184</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck4}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text184>
+        <Text185 Ref="42" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,12.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>23061dc8a98a42889823e20a9f0f384c</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text185</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck9}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text185>
+        <Text186 Ref="43" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,13.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>02643c3c18a94bc59a5e0ad6cc542f03</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text186</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck8}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text186>
+        <Text222 Ref="44" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>12.8,3,2.4,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>57d5561affd54f41951734f8282c52a1</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text222</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>日期：
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text222>
+        <Text5 Ref="45" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,11.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>86b91962464d4df9850b475ef28646cc</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text5</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.05
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text5>
+        <Text6 Ref="46" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,12.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>7bf95b503ff5403f943390c28e7f4727</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text6</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.05
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text6>
+        <Text7 Ref="47" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,13.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>6a985c4d6dd24072acf5886a5df00003</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text7</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.20
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text7>
+        <Text13 Ref="48" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,14.6,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>026dbedc4d2a44c1bc6d197f0cc29308</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text13</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>过氧化值 /                     ≤
+(mmol/kg)</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text13>
+        <Text14 Ref="49" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,15.6,4.2,2.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>f587ec56038141d68b9faddfdc569b7c</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text14</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>加热实验（280℃）</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text14>
+        <Text15 Ref="50" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,18.2,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>93db928e4ec44716b7ecb7f67270abe4</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text15</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>含皂量/%                      ≤</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text15>
+        <Text16 Ref="51" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,19.2,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>82071b7df3ea4eadbfd5e925b21e716c</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text16</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>烟点/℃                      ≥
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text16>
+        <Text20 Ref="52" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,14.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>f194994cc33948e39f3adac151e2604b</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text20</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>5.0</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text20>
+        <Text23 Ref="53" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,14.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>a9d205610e6d477fab04f5ba5d4f206c</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text23</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck1}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text23>
+        <Text24 Ref="54" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,15.6,2.8,2.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>c6684370b26844fa85005e4c8e243458</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text24</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck2}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text24>
+        <Text25 Ref="55" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,18.2,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>416d1302253546108ea08de565570aa5</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text25</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck10}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text25>
+        <Text26 Ref="56" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,19.2,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>e625164ec1f24c69bdc2c7c5aeaf3494</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text26</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck11}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text26>
+        <Text34 Ref="57" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,10.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>6b203ae09fec4b858b3fd17e0ae33013</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text34</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>澄清、透明</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text34>
+        <Text35 Ref="58" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20.2,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>451a19b4abb8435cb761b42f62b5566f</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text35</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>冷冻实验(0℃储藏5.5h)</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text35>
+        <Text36 Ref="59" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,21.2,4.2,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>98cd14dd2b4541329c1b18c92e5fa9da</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text36</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>溶剂残留量/(mg/kg)</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text36>
+        <Text39 Ref="60" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,20.2,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>f587d05380034ae2b067b0837a6d83b0</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text39</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck12}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text39>
+        <Text40 Ref="61" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,21.2,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>5846a00f58c14adaa2beee7cae9c63cb</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text40</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck3}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text40>
+        <Text45 Ref="62" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,11.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>de1f389c960c4cb9997f906d10ad0a42</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text45</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.05
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text45>
+        <Text46 Ref="63" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,12.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>14dac60ef745406dba6fc9b835dee7e1</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text46</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.05</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text46>
+        <Text47 Ref="64" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,13.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>dab718fa1b9c450aaa62cfc48c7ea7ce</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text47</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.30
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text47>
+        <Text48 Ref="65" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,14.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>e22550cf6dcd4260a7e473407693c323</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text48</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>5.0</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text48>
+        <Text8 Ref="66" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,11.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>5b81045a564a4bb3b0ae89275a4edfa9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text8</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.10
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text8>
+        <Text9 Ref="67" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,12.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>a63afbbc41764e26bf97ed400974c72a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text9</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.05</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text9>
+        <Text10 Ref="68" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,13.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>cea063aa0fcf4c01ac5cc2be898d8f5a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text10</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>1.0</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text10>
+        <Text21 Ref="69" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,14.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>ece7afcf78bd43029f369f26edc2bca6</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text21</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>6.0</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text21>
+        <Text22 Ref="70" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,11.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>b423a3eae2ce496a939042bf73002559</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text22</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.20
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text22>
+        <Text49 Ref="71" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,12.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>7b664934654b4e59acf593d056fe25f2</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text49</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.05</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text49>
+        <Text50 Ref="72" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,13.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>e5af10ae0d6b4d16b46798d724ec6018</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text50</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>3.0</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text50>
+        <Text51 Ref="73" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,14.6,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>fe22b97f03e947f59fb0757c59b37ea0</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text51</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>6.0</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text51>
+        <Text27 Ref="74" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,15.6,3,2.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text27</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>无析出物，
+罗维朋比色：
+黄色值不变，
+红色值增加小
+于0.4</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text27>
+        <Text30 Ref="75" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,15.6,3,2.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>d344e090bc164660aa0fa88f06edd688</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text30</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>微量析出物，罗
+维朋比色：黄色
+值不变，红色值
+增加小于4.0，蓝
+色值增加小于0.5</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text30>
+        <Text52 Ref="76" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,15.6,3,2.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>fc173baef04140aa97d8ad2b40eeac47</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text52</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text52>
+        <Text53 Ref="77" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,15.6,3,2.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>919e41a9542a449994c69b97b1c48850</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text53</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text53>
+        <Text28 Ref="78" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,18.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>e1d0af13dcad44899f8739b12c782526</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text28</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text28>
+        <Text29 Ref="79" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,21.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>c608bd39d96947b588b784b93f31160a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text29</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>不得检出</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text29>
+        <Text41 Ref="80" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,20.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>189a3ab29a6f4b26b0015feb63567646</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text41</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text41>
+        <Text42 Ref="81" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,19.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>31ef7a58198e47bc9e9b1c38df0f84f5</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text42</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>215</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text42>
+        <Text54 Ref="82" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,20.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>53459c045bf74118bad6f0502db07ccd</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text54</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>澄清、透明</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text54>
+        <Text55 Ref="83" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,18.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>f944de103c8e4c2b83fe47870c3a51dd</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text55</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text55>
+        <Text56 Ref="84" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,19.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>8bde124ff78d459ca5d90a1833f01e64</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text56</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>205</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text56>
+        <Text57 Ref="85" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,21.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>227829b507c44a13b944276fa293fce0</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text57</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>不得检出</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text57>
+        <Text31 Ref="86" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,21.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>8882da49013d453fa0ab8e18c79e5996</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text31</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>≤50</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text31>
+        <Text32 Ref="87" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,21.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>a5afa5ec1b2643dd88087786c8ba25b8</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text32</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>≤50</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text32>
+        <Text43 Ref="88" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,18.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>46d6b47cdde346a496cea3aa01ede11f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text43</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text43>
+        <Text44 Ref="89" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,20.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>7647f837067848c2b829265ed4fb4af2</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text44</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text44>
+        <Text58 Ref="90" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,20.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>2c40c01abe6641a7a3008bde39eec884</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text58</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text58>
+        <Text59 Ref="91" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,19.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>27e5b51103954dbca7df6c3a0c737f85</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text59</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text59>
+        <Text60 Ref="92" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,19.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>fcc612472e074905b04a9602eaac9bf5</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text60</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>-</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text60>
+        <Text61 Ref="93" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,18.2,3,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>6f767be6ac7243fd8cb39f25a22ad2e9</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text61</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>0.03
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text61>
+        <Text62 Ref="94" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,3.6,2.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>e7e06e45ce6e4b79b6f05ff5b9ff298a</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text62</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>大豆油
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text62>
+        <Text64 Ref="95" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7,3.6,2.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>5d14dbf23231497f83907b02cc5f0b8f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text64</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>执行标准
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text64>
+        <Text65 Ref="96" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.4,3.6,2.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>adb1e1e5d7f7494d945d61b0ebdbb15f</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text65</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>GB/T 1535</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text65>
+        <Text3 Ref="97" type="Text" isKey="true">
+          <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.2,6.6,1.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,14</Font>
+          <Guid>a5255a511f0c48fcbb8852ed3f5f9097</Guid>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text3</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>□
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text3>
+        <Text1 Ref="98" type="Text" isKey="true">
+          <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>8.6,6.6,1.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>482b3a370d7c4323b1998166a61a21ea</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>二级
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text1>
+        <Text2 Ref="99" type="Text" isKey="true">
+          <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7.2,6.6,1.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,14</Font>
+          <Guid>c4f5a96eda75478790d3f64a8f3497ee</Guid>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>□
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text2>
+        <Text4 Ref="100" type="Text" isKey="true">
+          <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>11.8,6.6,1.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>76a7aa3c7dde47ffbeb304ba357b585e</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text4</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>三级
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text4>
+        <Text66 Ref="101" type="Text" isKey="true">
+          <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>10.2,6.6,1.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,14</Font>
+          <Guid>21cf514807894d4d81b6f0b3333fb957</Guid>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text66</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>□
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text66>
+        <Text67 Ref="102" type="Text" isKey="true">
+          <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>14.6,6.6,1.6,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>6e5d8c6b0c2c477b8c75622cd1c0ae19</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text67</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>四级
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text67>
+        <Text68 Ref="103" type="Text" isKey="true">
+          <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>13.2,6.6,1.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,14</Font>
+          <Guid>ea8f250c8b62469785d6bbd35e69e27f</Guid>
+          <HorAlignment>Right</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text68</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>□
+</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text68>
+        <Text69 Ref="104" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>16.2,8.6,2.8,2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text69</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.QtyCheck6}</Text>
+          <TextBrush>Black</TextBrush>
+          <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+          <VertAlignment>Center</VertAlignment>
+        </Text69>
+        <Text63 Ref="105" type="Text" isKey="true">
+          <Border>Right;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>14.2,4.6,4.8,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9,Bold</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text63</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.CheckStfName}</Text>
+          <TextBrush>Black</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text63>
+        <Text71 Ref="106" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>14.6,3,4,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text71</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.PassTime}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text71>
+        <Text70 Ref="107" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.86,3,6,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>03b15a61a23243239d6fdf90a4a46cf7</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text70</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>检验合格证号：{SacOutSupervise.QtyCheck15}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text70>
+        <Text11 Ref="108" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>7,4.6,2.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>2c35be02c3d0475b9e6dff1456d70aa6</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text11</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>罐号	
+</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text11>
+        <Text12 Ref="109" type="Text" isKey="true">
+          <Border>Right;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.4,4.6,2.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,9,Bold</Font>
+          <Guid>f2890390a2bd4da09caf8b3f8d5fc5bc</Guid>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text12</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text12>
+        <Text17 Ref="110" type="Text" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>9.4,4.6,2.4,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Microsoft Sans Serif,10</Font>
+          <Guid>19a46e8fe866453ea827ed164ec1a1ce</Guid>
+          <HorAlignment>Center</HorAlignment>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text17</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SacOutSupervise.StorckName}</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text17>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>489d77eb58dd4711a73f6b001e56dbf5</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="111" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="112" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>3/30/2018 10:05:55 PM</ReportChanged>
+  <ReportCreated>5/9/2014 8:06:26 AM</ReportCreated>
+  <ReportFile>豆油化验单.mrt</ReportFile>
+  <ReportGuid>6bdf1f17cc434cfca7fb2472ff4e32e6</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2016.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

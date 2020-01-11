@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <SacOutSupervise Ref="2" type="DataTableSource" isKey="true">
+        <Alias>SacOutSupervise</Alias>
+        <Columns isList="true" count="94">
+          <value>YN,System.Boolean</value>
+          <value>BilType,System.String</value>
+          <value>ID,System.Int64</value>
+          <value>CorpID,System.Int64</value>
+          <value>BilIDFrom,System.String</value>
+          <value>IDFrom,System.Int64</value>
+          <value>ItemFrom,System.Int32</value>
+          <value>IDOutStc,System.Int64</value>
+          <value>AutoID,System.Int64</value>
+          <value>AutoCode,System.String</value>
+          <value>Driver,System.String</value>
+          <value>UpStockID,System.Int64</value>
+          <value>InLine,System.String</value>
+          <value>InLineTime,System.DateTime</value>
+          <value>IDInStc,System.Int64</value>
+          <value>StockID,System.Int64</value>
+          <value>StockQty,System.String</value>
+          <value>QtyTare,System.Decimal</value>
+          <value>TareTime,System.DateTime</value>
+          <value>TareStfID,System.Int64</value>
+          <value>QtyGross,System.Decimal</value>
+          <value>GrossTime,System.DateTime</value>
+          <value>GrossStfID,System.Int64</value>
+          <value>BeginLoadStfID,System.Int64</value>
+          <value>BeginLoadTime,System.DateTime</value>
+          <value>EndLoadTime,System.DateTime</value>
+          <value>EndLoadStfID,System.Int64</value>
+          <value>QCID,System.Int64</value>
+          <value>PassTime,System.DateTime</value>
+          <value>PassStfID,System.Int64</value>
+          <value>SuperviseID,System.Int64</value>
+          <value>CreateStfID,System.Int64</value>
+          <value>CreateTime,System.DateTime</value>
+          <value>Rem,System.String</value>
+          <value>SuperviseTypeID,System.Int32</value>
+          <value>SuperviseIndex,System.Int32</value>
+          <value>UpIndex,System.Int32</value>
+          <value>MultKeyID,System.Int64</value>
+          <value>QtyLastTare,System.Decimal</value>
+          <value>LastTareTime,System.DateTime</value>
+          <value>LastTareStfID,System.Int64</value>
+          <value>IsReceipt,System.Boolean</value>
+          <value>AccID,System.Int64</value>
+          <value>RecAmt,System.Decimal</value>
+          <value>ReCAmtLocal,System.Decimal</value>
+          <value>QtyTareRep,System.Decimal</value>
+          <value>TareRepTime,System.DateTime</value>
+          <value>TareRepStfID,System.Int64</value>
+          <value>DelayHours,System.Decimal</value>
+          <value>LoadAdd,System.String</value>
+          <value>IsPass,System.Int32</value>
+          <value>QtyCheck12,System.String</value>
+          <value>QtyCheck2,System.String</value>
+          <value>QtyCheck3,System.String</value>
+          <value>QtyCheck1,System.String</value>
+          <value>QtyCheck4,System.String</value>
+          <value>QtyCheck5,System.String</value>
+          <value>QtyCheck6,System.String</value>
+          <value>QtyCheck7,System.String</value>
+          <value>QtyCheck8,System.String</value>
+          <value>QtyCheck9,System.String</value>
+          <value>QtyCheck10,System.String</value>
+          <value>QtyCheck11,System.String</value>
+          <value>ArriveID,System.Int64</value>
+          <value>CheckStfName,System.String</value>
+          <value>QtyCheck13,System.String</value>
+          <value>QtyCheck14,System.String</value>
+          <value>QtyBZY,System.Decimal</value>
+          <value>QtyTray,System.Decimal</value>
+          <value>QtyLargess,System.Decimal</value>
+          <value>TrayName,System.String</value>
+          <value>QtyCheck15,System.String</value>
+          <value>MatID,System.Int64</value>
+          <value>StockIDDtl,System.Int64</value>
+          <value>Qty,System.Decimal</value>
+          <value>ContID,System.Int64</value>
+          <value>ContBilID,System.String</value>
+          <value>ContItem,System.Int32</value>
+          <value>TransportID,System.Int32</value>
+          <value>MatIDCode,System.String</value>
+          <value>MatIDName,System.String</value>
+          <value>Accuracy,System.Int32</value>
+          <value>MatTypeName,System.String</value>
+          <value>ContDepID,System.Int64</value>
+          <value>DCorpID,System.Int64</value>
+          <value>DrID,System.Int64</value>
+          <value>ContBilNo,System.String</value>
+          <value>CustID,System.Int64</value>
+          <value>ToCust,System.String</value>
+          <value>TareStfName,System.String</value>
+          <value>GrossStfName,System.String</value>
+          <value>BeginLoadStfName,System.String</value>
+          <value>EndLoadStfName,System.String</value>
+          <value>PassStfName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>SacOutSupervise</Name>
+        <NameInSource>基础资料.SacOutSupervise</NameInSource>
+      </SacOutSupervise>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="11">
+      <value>,公司代号,公司代号,System.String,BHSY,False,False</value>
+      <value>,公司中文名称,公司中文名称,System.String,广西渤海农业发展有限公司,False,False</value>
+      <value>,公司英文名称,公司英文名称,System.String,,False,False</value>
+      <value>,公司地址,公司地址,System.String,,False,False</value>
+      <value>,当前用户代号,当前用户代号,System.Int64,_x0031_194047,False,False</value>
+      <value>,当前用户名称,当前用户名称,System.String,叶家学,False,False</value>
+      <value>,公司电话,公司电话,System.String,,False,False</value>
+      <value>,当前用户角色,当前用户角色,System.String,系统管理员,False,False</value>
+      <value>,机构代号,机构代号,System.String,GXBH,False,False</value>
+      <value>,机构名称,机构名称,System.String,广西渤海农业发展有限公司,False,False</value>
+      <value>,机构英文名称,机构英文名称,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <PageHeaderBand1 Ref="4" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,4.8</ClientRectangle>
+          <Components isList="true" count="13">
+            <Image2 Ref="5" type="Image" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.6,0,5.4,1.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Guid>55af66c81746407d9a129f0307a96284</Guid>
+              <Image>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</Image>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image2</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+            </Image2>
+            <Text112 Ref="6" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,0.2,8.8,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,18,Bold</Font>
+              <Guid>24c74faebcb5471a8f28c057015e9810</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text112</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>广西渤海农业发展有限公司</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text112>
+            <Text114 Ref="7" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.6,1.6,6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,16,Bold</Font>
+              <Guid>66dfb6a2c69a4b49b72077ddebd3685e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text114</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>皂脚分析化验报告单</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text114>
+            <Text122 Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,2,7.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>d5786687326c409ab822f5d099a3903e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text122</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>编号：GXBH-QER-QC-101
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text122>
+            <Text113 Ref="9" type="Text" isKey="true">
+              <Border>Top, Left;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.8,2.8,3,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>6b1fd870d33c47839a76e59432831d80</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text113</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>取样时间</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text113>
+            <Text123 Ref="10" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.8,2.8,5.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>947fabddec4a443fbda26da9c8605130</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text123</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text123>
+            <Text134 Ref="11" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2.8,5,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>54d3b5524ede46e28caf5beb2eb98a3c</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text134</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>样品名称</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text134>
+            <Text139 Ref="12" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,2.8,5.8,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>dea4ff45e1c545429b7e16e4cfd4503f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text139</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>发车皂脚
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text139>
+            <Text140 Ref="13" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.8,3.8,3,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>de3de0c7459a4369b2184af163134786</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text140</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>取样人	
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text140>
+            <Text141 Ref="14" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.8,3.8,5.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>cf90ffed3f5d461dbbe48c2cfb16e2ef</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text141</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{SacOutSupervise.CheckStfName}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text141>
+            <Text14 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>14,3,4.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{SacOutSupervise.CreateTime}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="16" type="DateFormat" isKey="true" />
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text1 Ref="17" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,3.8,5,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>5e39ae612b0c4ac6985a8660475db4c4</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>取样点
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text3 Ref="18" type="Text" isKey="true">
+              <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.86,3.8,6,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>精炼小罐区
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageHeaderBand1>
+        <ColumnHeaderBand1 Ref="19" type="Stimulsoft.Report.Components.StiColumnHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6,19,0.8</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text4 Ref="20" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.2,0,4.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>c3363238356c4fcf88ee810856fb91ed</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="3" />
+              <Parent isRef="19" />
+              <Text>取样时间</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text138 Ref="21" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.6,0,3.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>337e3e62aaf448788f1cdfabfdb8f4f1</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text138</Name>
+              <Page isRef="3" />
+              <Parent isRef="19" />
+              <Text>车号</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text138>
+            <Text118 Ref="22" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.2,0,5.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>e07b38e87830448199e3521a126cff60</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text118</Name>
+              <Page isRef="3" />
+              <Parent isRef="19" />
+              <Text>水分检测结果(%)
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text118>
+            <Text6 Ref="23" type="Text" isKey="true">
+              <Border>Left;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>5bd7bbe6e5b34f77afdc55dfbb6e3e52</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="3" />
+              <Parent isRef="19" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text8 Ref="24" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.8,0,1.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>31fc972bcd4945ffbf3a1b471e3d9012</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="3" />
+              <Parent isRef="19" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ColumnHeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ColumnHeaderBand1>
+        <DataBand1 Ref="25" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,7.6,19,1</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text13 Ref="26" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.6,0,3.6,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>ce4deca375e64f42828056c9ca97f3d3</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="3" />
+              <Parent isRef="25" />
+              <Text>{SacOutSupervise.AutoCode}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text2 Ref="27" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.2,0,5.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>6e192df65cfa4472aff9a89b7b7e3758</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="3" />
+              <Parent isRef="25" />
+              <Text>{SacOutSupervise.QtyCheck4}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text5 Ref="28" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.2,0,4.4,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>08241563df84408288f95cd19c824b50</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="3" />
+              <Parent isRef="25" />
+              <Text>{SacOutSupervise.CreateTime}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="29" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+            </Text5>
+            <Text7 Ref="30" type="Text" isKey="true">
+              <Border>Left;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>4843b097718b40168aac4aef821db0e4</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="3" />
+              <Parent isRef="25" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text10 Ref="31" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.8,0,1.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>8c8a26dfc153425281e167f7be121f50</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="3" />
+              <Parent isRef="25" />
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>SacOutSupervise</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <FooterBand1 Ref="32" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,9.4,19,1.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text130 Ref="33" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Microsoft Sans Serif,10</Font>
+              <Guid>e834d78d8c884d2bba37767e88b619d9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text130</Name>
+              <Page isRef="3" />
+              <Parent isRef="32" />
+              <Text>       分析人：                              	                 复核：  
+							
+</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text130>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </FooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>4a17e00db4f74703aa2f573d0d2fdc5a</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="34" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="35" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>4/13/2015 3:55:19 PM</ReportChanged>
+  <ReportCreated>8/16/2014 11:51:20 AM</ReportCreated>
+  <ReportFile />
+  <ReportGuid>efaa44f551f04bbb8cf233a06836768b</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2015.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

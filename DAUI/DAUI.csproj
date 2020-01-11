@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61D872A7-4CCE-4DFA-BAC0-CB6A5D1C6183}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DAUI</RootNamespace>
+    <AssemblyName>DAUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Green_Cup.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Stimulsoft.Design, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoCodeForm.Designer.cs">
+      <DependentUpon>AutoCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_DelArriveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_DelArriveForm.Designer.cs">
+      <DependentUpon>A_DelArriveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlackAutoCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlackAutoCodeForm.Designer.cs">
+      <DependentUpon>BlackAutoCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarAutoRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarAutoRecord.Designer.cs">
+      <DependentUpon>CarAutoRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarNoPictureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarNoPictureForm.Designer.cs">
+      <DependentUpon>CarNoPictureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeDateFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeDateFrm.Designer.cs">
+      <DependentUpon>ChangeDateFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassWordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassWordForm.Designer.cs">
+      <DependentUpon>ChangePassWordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeShipNameFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeShipNameFrm.Designer.cs">
+      <DependentUpon>ChangeShipNameFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeSyobinAutocordeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeSyobinAutocordeFrm.Designer.cs">
+      <DependentUpon>ChangeSyobinAutocordeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeTimeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeTimeFrm.Designer.cs">
+      <DependentUpon>ChangeTimeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeTime1Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeTime1Frm.Designer.cs">
+      <DependentUpon>ChangeTime1Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckData.Designer.cs">
+      <DependentUpon>CheckData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustermoPriceFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustermoPriceFrm.Designer.cs">
+      <DependentUpon>CustermoPriceFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelReachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelReachForm.Designer.cs">
+      <DependentUpon>DelReachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrossQtyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrossQtyForm.Designer.cs">
+      <DependentUpon>GrossQtyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QCPrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCPrintForm.Designer.cs">
+      <DependentUpon>QCPrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReachArriveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReachArriveForm.Designer.cs">
+      <DependentUpon>ReachArriveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RebackCheckFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RebackCheckFrm.Designer.cs">
+      <DependentUpon>RebackCheckFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="setGridView.cs" />
+    <Compile Include="ShipmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShipmentForm.Designer.cs">
+      <DependentUpon>ShipmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoybeanFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoybeanFrm.Designer.cs">
+      <DependentUpon>SoybeanFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForm.Designer.cs">
+      <DependentUpon>UIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountForm.Designer.cs">
+      <DependentUpon>CountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOrderChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOrderChange.Designer.cs">
+      <DependentUpon>CheckOrderChange.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AutoCodeForm.resx">
+      <DependentUpon>AutoCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_DelArriveForm.resx">
+      <DependentUpon>A_DelArriveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlackAutoCodeForm.resx">
+      <DependentUpon>BlackAutoCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarAutoRecord.resx">
+      <DependentUpon>CarAutoRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarNoPictureForm.resx">
+      <DependentUpon>CarNoPictureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeDateFrm.resx">
+      <DependentUpon>ChangeDateFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassWordForm.resx">
+      <DependentUpon>ChangePassWordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeShipNameFrm.resx">
+      <DependentUpon>ChangeShipNameFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeSyobinAutocordeFrm.resx">
+      <DependentUpon>ChangeSyobinAutocordeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeTimeFrm.resx">
+      <DependentUpon>ChangeTimeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeTime1Frm.resx">
+      <DependentUpon>ChangeTime1Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckData.resx">
+      <DependentUpon>CheckData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustermoPriceFrm.resx">
+      <DependentUpon>CustermoPriceFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelReachForm.resx">
+      <DependentUpon>DelReachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrossQtyForm.resx">
+      <DependentUpon>GrossQtyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QCPrintForm.resx">
+      <DependentUpon>QCPrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReachArriveForm.resx">
+      <DependentUpon>ReachArriveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RebackCheckFrm.resx">
+      <DependentUpon>RebackCheckFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShipmentForm.resx">
+      <DependentUpon>ShipmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoybeanFrm.resx">
+      <DependentUpon>SoybeanFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForm.resx">
+      <DependentUpon>UIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountForm.resx">
+      <DependentUpon>CountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOrderChange.resx">
+      <DependentUpon>CheckOrderChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DABLL\DABLL.csproj">
+      <Project>{e19f6a8d-c373-420c-8bd0-55c901b0cd2d}</Project>
+      <Name>DABLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAMODEL\DAMODEL.csproj">
+      <Project>{bea6652a-fd9b-41dd-bb3a-0cd075862c58}</Project>
+      <Name>DAMODEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpDate\UpConfig\UpConfig.csproj">
+      <Project>{1dca6144-dba6-407d-a74e-25658290bb57}</Project>
+      <Name>UpConfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Download.ico" />
+    <Content Include="Green_Cup.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
